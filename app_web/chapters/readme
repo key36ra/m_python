@@ -1,0 +1,13 @@
+chapter03: cgiserver
+chapter04: query, find13f
+chapter06: rssreader1
+chapter07: storing query data by pickle or db(database)
+chapter09: templete engine
+chapter10: o/r mapper, simplemapper
+chapter11: rssreader2
+chapter12: validators, widgets
+chapter13: appserver
+chapter14: validators, widgets
+chapter15: templete, xss
+chapter16: rssreader3, templete, o/r mapper, validators and widgets
+
