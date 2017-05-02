@@ -8,13 +8,16 @@ from httphandler import Request, Response
 from rssparser import parse_rss
 import cgitb; cgitb.enable()
 
+# RSSのリストを作成
 rsslist=[]
+# 
 try:
     for rss in Rssurl.select(order_by='id'):
         rsslist.extend(parse_rss(rss.url))
 except:
     pass
 
+# httphandlerからResponseクラスのインスタンスを作成
 res=Response()
 p=path.join(path.dirname(__file__), 'rsslist.html')
 t=SimpleTemplate(file_path=p)
