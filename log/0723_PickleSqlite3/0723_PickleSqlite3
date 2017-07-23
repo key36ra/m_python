@@ -1,0 +1,27 @@
+"""
+DataPersistance
+pickle, sqlite3
+"""
+
+# Main
+pickle and sqlite3 module
+what they enable us.
+
+# Source
+/docs.python.org/3/library/index.html
+12.Data Persistance
+12.1. pickle - Python object serialization
+12.6. sqlite3 - DB-API 2.0 interface for SQLite databases
+
+# Data persistance
+storing Python data in a persistant form on disk.
+this recreate the objects from the bytes.
+
+# Pickle
+pickling: serialization; marshalling; flattening.
+json is for text, pickle is for binary.
+bite stream of pickle is only for Python.
+
+
+# Sqlite3
+
