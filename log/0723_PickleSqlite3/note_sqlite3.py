@@ -4,6 +4,11 @@ import sqlite3
 """
 Overview
 """
+# Create "connection" obect.
+conn = sqlite3.connect('example.db')
+
+# Create "cursor" onject from "connection" object.
+c = conn.cursor()
 
 # Create table
 c.execute('''CREATE TABLE stocks
