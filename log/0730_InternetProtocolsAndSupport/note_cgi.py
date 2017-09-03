@@ -17,11 +17,11 @@ print("Hello, world!")
 """
 cgi module
 """
-# Debug to browser
+# Debug for browser
 import cgitb
 cgitb.enable()
 
-# Debug to file
+# Debug for file
 import cgitb
 cgitb.enable(display=0,logdir="/path/to/logdir")
 
